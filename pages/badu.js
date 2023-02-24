@@ -20,7 +20,7 @@ export default function BaiDu({data}) {
 
 export async function getStaticProps() {
     try {
-        const { data } = await axios.post(`http://baike.baidu.com/api/openapi/BaikeLemmaCardApi?scope=103&format=json&appid=379020&bk_key=%E9%93%B6%E9%AD%82&bk_length=600`, {});
+        const { data } = await axios.post(`http://baike.baidu.com/api/openapi/BaikeLemmaCardApi?scope=103&format=json&appid=379020&bk_key=%E6%B5%AA%E5%AE%A2%E5%89%91%E5%BF%83&bk_length=600`, {});
       //  console.log('data : ' + data.title);
       //  console.log('desc : ' + data.desc); 
         return { 
